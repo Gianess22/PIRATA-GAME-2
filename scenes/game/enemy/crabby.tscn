@@ -524,6 +524,7 @@ animations = [{
 size = Vector2(42, 25)
 
 [node name="Crabby" type="CharacterBody2D"]
+position = Vector2(155, 200)
 script = SubResource("GDScript_6chrj")
 
 [node name="EnemyAnimation" type="AnimatedSprite2D" parent="."]
