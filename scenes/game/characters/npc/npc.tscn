@@ -1,4 +1,4 @@
-[gd_scene load_steps=58 format=3 uid="uid://b270rwdaoog0f"]
+[gd_scene load_steps=50 format=3 uid="uid://b270rwdaoog0f"]
 
 [ext_resource type="PackedScene" uid="uid://btewge2lyid0y" path="res://scenes/game/dialogues/components/npc/npc_dialogue_area.tscn" id="1_js67w"]
 [ext_resource type="Script" path="res://scenes/game/characters/npc/npc.gd" id="1_p8b57"]
@@ -7,19 +7,11 @@
 [ext_resource type="Texture2D" uid="uid://b6mirl0d8kutm" path="res://assets/sprites/pirate_bomb/6_enemy_whale/1_idle/3.png" id="4_xo7l0"]
 [ext_resource type="Texture2D" uid="uid://clqw1i80n3fpq" path="res://assets/sprites/pirate_bomb/6_enemy_whale/1_idle/4.png" id="5_snlh6"]
 [ext_resource type="Texture2D" uid="uid://cdafiibox1elr" path="res://assets/sprites/pirate_bomb/6_enemy_whale/1_idle/5.png" id="6_lnq25"]
-[ext_resource type="Texture2D" uid="uid://c2lh7fq42575x" path="res://assets/sprites/pirate_bomb/6_enemy_whale/1_idle/6.png" id="7_kwh8i"]
-[ext_resource type="Texture2D" uid="uid://dp01kdsky74au" path="res://assets/sprites/pirate_bomb/6_enemy_whale/1_idle/7.png" id="8_mnwoj"]
-[ext_resource type="Texture2D" uid="uid://dp414hu5qhvq7" path="res://assets/sprites/pirate_bomb/6_enemy_whale/1_idle/8.png" id="9_1sokb"]
 [ext_resource type="Texture2D" uid="uid://c3nj8ouc68pvp" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/dialogue/interrogation/interrogation_in_01.png" id="9_i1nqg"]
-[ext_resource type="Texture2D" uid="uid://daga1t2e45gvk" path="res://assets/sprites/pirate_bomb/6_enemy_whale/1_idle/9.png" id="10_iq0nm"]
 [ext_resource type="Texture2D" uid="uid://b5o71w5gfbojc" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/dialogue/interrogation/interrogation_in_02.png" id="10_ycfj3"]
 [ext_resource type="Texture2D" uid="uid://c5vbrvw865uht" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/dialogue/interrogation/interrogation_in_03.png" id="11_ga8ty"]
-[ext_resource type="Texture2D" uid="uid://cqdj25in33vej" path="res://assets/sprites/pirate_bomb/6_enemy_whale/1_idle/10.png" id="11_uyjk5"]
 [ext_resource type="Texture2D" uid="uid://d07kywpy3ffon" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/dialogue/interrogation/interrogation_out_01.png" id="12_0vwrn"]
-[ext_resource type="Texture2D" uid="uid://d1bi3y213juyy" path="res://assets/sprites/pirate_bomb/6_enemy_whale/1_idle/11.png" id="12_pb354"]
-[ext_resource type="Texture2D" uid="uid://ckieltm6510rg" path="res://assets/sprites/pirate_bomb/6_enemy_whale/1_idle/12.png" id="13_aebvs"]
 [ext_resource type="Texture2D" uid="uid://b4vh2yxke6lsb" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/dialogue/interrogation/interrogation_out_02.png" id="13_xkqj8"]
-[ext_resource type="Texture2D" uid="uid://bxmi7x0kk6dae" path="res://assets/sprites/pirate_bomb/6_enemy_whale/1_idle/13.png" id="14_pigyd"]
 [ext_resource type="Texture2D" uid="uid://cl548arjg244b" path="res://assets/sprites/pirate_bomb/6_enemy_whale/1_idle/14.png" id="15_o0wxx"]
 [ext_resource type="Resource" uid="uid://bn5myqf1kokjb" path="res://scenes/game/dialogues/dialogues/scene_1/scene_1.dialogue" id="15_tqdhh"]
 [ext_resource type="Texture2D" uid="uid://bx5w14u88sy2u" path="res://assets/sprites/pirate_bomb/6_enemy_whale/1_idle/15.png" id="16_11yg0"]
@@ -70,30 +62,6 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": ExtResource("6_lnq25")
-}, {
-"duration": 1.0,
-"texture": ExtResource("7_kwh8i")
-}, {
-"duration": 1.0,
-"texture": ExtResource("8_mnwoj")
-}, {
-"duration": 1.0,
-"texture": ExtResource("9_1sokb")
-}, {
-"duration": 1.0,
-"texture": ExtResource("10_iq0nm")
-}, {
-"duration": 1.0,
-"texture": ExtResource("11_uyjk5")
-}, {
-"duration": 1.0,
-"texture": ExtResource("12_pb354")
-}, {
-"duration": 1.0,
-"texture": ExtResource("13_aebvs")
-}, {
-"duration": 1.0,
-"texture": ExtResource("14_pigyd")
 }, {
 "duration": 1.0,
 "texture": ExtResource("15_o0wxx")
