@@ -1,0 +1,57 @@
+[gd_scene load_steps=8 format=3 uid="uid://cpisv5sdwsjui"]
+
+[ext_resource type="Texture2D" uid="uid://chwnvtn8lftnv" path="res://escena/nivel/nivel_4/fondo.png" id="1_uoj1g"]
+[ext_resource type="Texture2D" uid="uid://dcptpykdlp5rk" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/objects/flag/flag_01.png" id="2_xc5bj"]
+[ext_resource type="PackedScene" uid="uid://qrm4ja4mewdf" path="res://escena/nivel/enemy 2/crabby.tscn" id="3_7h76t"]
+[ext_resource type="PackedScene" uid="uid://ca3ueo0yewjov" path="res://scenes/game/characters/main_character/main_character.tscn" id="4_5kecg"]
+[ext_resource type="PackedScene" uid="uid://cigd2vw3kenig" path="res://escena/bloque.tscn" id="5_2iehk"]
+[ext_resource type="PackedScene" uid="uid://7w4tdpv2io8v" path="res://escena/agua.tscn" id="6_wjgbd"]
+[ext_resource type="PackedScene" uid="uid://dhveonft7qj78" path="res://escena/puente.tscn" id="7_u55bt"]
+
+[node name="Nivel 4" type="Node2D"]
+z_as_relative = false
+y_sort_enabled = true
+
+[node name="Fondo" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(565, 322)
+scale = Vector2(0.640625, 0.729943)
+texture = ExtResource("1_uoj1g")
+
+[node name="Flag" type="Sprite2D" parent="."]
+position = Vector2(1126, 557)
+texture = ExtResource("2_xc5bj")
+
+[node name="Crabby" parent="." instance=ExtResource("3_7h76t")]
+position = Vector2(373, 594)
+
+[node name="Crabby2" parent="." instance=ExtResource("3_7h76t")]
+position = Vector2(870, 566)
+
+[node name="Crabby3" parent="." instance=ExtResource("3_7h76t")]
+position = Vector2(496, 564)
+
+[node name="MainCharacter" parent="." instance=ExtResource("4_5kecg")]
+position = Vector2(107, 571)
+
+[node name="bloque" parent="." instance=ExtResource("5_2iehk")]
+position = Vector2(-16, 581)
+
+[node name="bloque2" parent="." instance=ExtResource("5_2iehk")]
+position = Vector2(196, 607)
+
+[node name="bloque3" parent="." instance=ExtResource("5_2iehk")]
+position = Vector2(408, 579)
+
+[node name="agua" parent="." instance=ExtResource("6_wjgbd")]
+z_index = -1
+position = Vector2(599, 596)
+
+[node name="puente" parent="." instance=ExtResource("7_u55bt")]
+position = Vector2(600, 520)
+
+[node name="bloque4" parent="." instance=ExtResource("5_2iehk")]
+position = Vector2(749, 582)
+
+[node name="bloque5" parent="." instance=ExtResource("5_2iehk")]
+position = Vector2(959, 593)

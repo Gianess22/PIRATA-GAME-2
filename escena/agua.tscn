@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://7w4tdpv2io8v"]
+
+[ext_resource type="Texture2D" uid="uid://doufmlf1xuxyd" path="res://escena/agua.png" id="1_nuuqn"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g0frq"]
+size = Vector2(198, 95)
+
+[node name="agua" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="Agua" type="Sprite2D" parent="."]
+position = Vector2(93, 40.5)
+scale = Vector2(0.363636, 0.218919)
+texture = ExtResource("1_nuuqn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(89, 37.5)
+shape = SubResource("RectangleShape2D_g0frq")

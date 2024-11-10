@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://d35sb1o4bwlny"]
+
+[ext_resource type="Texture2D" uid="uid://citrqlg6buw7m" path="res://escena/nivel/arbolito1.png" id="1_11ebq"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_c5bh4"]
+radius = 51.0
+
+[node name="arbolito" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-2, -151)
+scale = Vector2(0.646, 0.663)
+texture = ExtResource("1_11ebq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_c5bh4")

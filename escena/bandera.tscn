@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dul6ifvivaw8m"]
+
+[ext_resource type="Texture2D" uid="uid://x7ge6pv0cxwy" path="res://escena/nivel/nivel_4/bandera.png" id="1_pfk3d"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jtdnr"]
+size = Vector2(741.744, 589.804)
+
+[node name="StaticBody2D" type="StaticBody2D"]
+
+[node name="Bandera" type="Sprite2D" parent="."]
+position = Vector2(-1, 0)
+scale = Vector2(0.152344, 0.159375)
+texture = ExtResource("1_pfk3d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bandera"]
+position = Vector2(6.5641, 25.098)
+shape = SubResource("RectangleShape2D_jtdnr")

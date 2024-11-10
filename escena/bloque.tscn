@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://cigd2vw3kenig"]
+
+[ext_resource type="Texture2D" uid="uid://bg1yscvpko3cn" path="res://escena/nivel/nivel_4/bloques.png" id="1_o3ls8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rfujo"]
+size = Vector2(226, 86)
+
+[node name="bloque" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="Bloques" type="Sprite2D" parent="."]
+position = Vector2(108, 43)
+scale = Vector2(0.395443, 0.366435)
+texture = ExtResource("1_o3ls8")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(103, 44)
+shape = SubResource("RectangleShape2D_rfujo")
